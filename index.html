@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sven</title>
+    <link rel="stylesheet" href="assets/css/invests.css">
+    <link rel="stylesheet" href="assets/css/burger.menu.css">
+    <link rel="stylesheet" href="assets/css/hero.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="#" class="logo">
+                    <img src="assets/img/icons/logo.svg" alt="logo">
+                </a>
+                <div class="header-menu_desktop">
+                    <ul class="header-list">
+                        <li class="header-list_item">
+                            <a href="#">
+                                <span>Преимущества</span>
+                                <img src="assets/img/icons/arrow_right.svg" alt="arrow_right">
+                            </a>
+                        </li>
+                        <li class="header-list_item">
+                            <a href="#">
+                                <span>Игра SVEN</span>
+                                <img src="assets/img/icons/arrow_right.svg" alt="arrow_right">
+                            </a>
+                        </li>
+                        <li class="header-list_item">
+                            <a href="#">
+                                <span>Преимущества</span>
+                                <img src="assets/img/icons/arrow_right.svg" alt="arrow_right">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-right">
+                    <div class="header-locale" onclick="setOpen('.header-locale')">
+                        <button class="locale-btn">
+                            <img src="assets/img/icons/locale_ru.svg" alt="locale_ru">
+                            <span>ru</span>
+                            <img src="assets/img/icons/arrow_down_white.svg" alt="arrrow_down_white">
+                        </button>
+                        <div class="locale-control">
+                            <ul class="locale-list">
+                                <li class="locale-list_item">
+                                    <a href="#">
+                                        <img src="assets/img/icons/locale_ru.svg" alt="locale_ru">
+                                        <span>ru</span>
+                                    </a>
+                                </li>
+                                <li class="locale-list_item">
+                                    <a href="#">
+                                        <img src="assets/img/icons/locale_ua.svg" alt="locale_ua">
+                                        <span>ua</span>
+                                    </a>
+                                </li>
+                                <li class="locale-list_item">
+                                    <a href="#">
+                                        <img src="assets/img/icons/locale_en.svg" alt="locale_en">
+                                        <span>en</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="tl-btn">
+                        <img src="assets/img/icons/tl.svg" alt="tl">
+                        <span>Telegram</span>
+                    </button>
+                    <button class="menu-btn" onclick="setOpen('.burger-menu')">
+                        <img src="assets/img/icons/menu.svg" alt="menu">
+                    </button>
+                </div>
+            </div>
+            <div class="burger-menu">
+                <div class="burger-menu_inner">
+                    <div class="burger-menu_top">
+                        <a href="#" class="logo">
+                            <img src="assets/img/icons/logo.svg" alt="logo">
+                        </a>
+                        <button class="start-btn">
+                            Начать играть
+                        </button>
+                        <div class="burger-menu_right">
+                            <button class="tl-btn">
+                                <img src="assets/img/icons/tl.svg" alt="tl">
+                                <span>Telegram</span>
+                            </button>
+                            <button class="menu-btn" onclick="setOpen('.burger-menu')">
+                                <img src="assets/img/icons/close.svg" alt="close">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="burger-menu_bottom">
+                        <ul class="burger-menu_list">
+                            <li class="burger-menu_item">
+                                <a href="#">
+                                    <span>Как заработать?</span>
+                                    <img src="assets/img/icons/arrow_right.svg" alt="arrow_right">
+                                </a>
+                            </li>
+                            <li class="burger-menu_item">
+                                <a href="#">
+                                    <span>Игра sven</span>
+                                    <img src="assets/img/icons/arrow_right.svg" alt="arrow_right">
+                                </a>
+                            </li>
+                            <li class="burger-menu_item">
+                                <a href="#">
+                                    <span>Преимущества</span>
+                                    <img src="assets/img/icons/arrow_right.svg" alt="arrow_right">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="burger-menu_locale">
+                            <button>
+                                <img src="assets/img/icons/locale_ru.svg" alt="locale_ru">
+                                <span>ru</span>
+                                <img src="assets/img/icons/arrow_down_black.svg" alt="arrow_down_black">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <img class="hero-bg_mobile" src="assets/img/presets/hero_bg_mobile.png" alt="hero_mobile">
+            <img class="hero-bg_desktop" src="assets/img/presets/hero.png" alt="hero">
+            <img class="hero-dog" src="assets/img/presets/hero_dog.png" alt="hero_dog">
+            <div class="hero-info">
+                <div class="hero-title">
+                    <h1>
+                        SVEN - Lorem
+                        ipsum dolor
+                        sit amet,
+                    </h1>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book.
+                    </p>
+                </div>
+                <a href="#">
+                    Играть
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="games">
+        <div class="container">
+            <span class="section-tag">Инвестируй</span>
+            <div class="section-title">
+                <h2>
+                    Инвестируй и зарабатывай <span style="color: #0098EA">TON</span>
+                </h2>
+            </div>
+            <div class="swiper slider">
+                <ul class="game-list swiper-wrapper">
+                    <li class="game-item swiper-slide">
+                        <div class="game-img">
+                            <img src="assets/img/presets/transation_1.png" alt="transation">
+                        </div>
+                        <div class="game-info">
+                            <div class="game-info_group">
+                                <div class="info-group_left">Доходность</div>
+                                <div class="info-group_right">
+                                    <span>1.1%</span>
+                                </div>
+                            </div>
+                            <div class="game-info_group">
+                                <div class="info-group_left">Стоимость</div>
+                                <div class="info-group_right">
+                                    <span>0.6 TON</span>
+                                    <img src="assets/img/icons/ton.svg" alt="ton">
+                                </div>
+                            </div>
+                            <div class="game-info_group">
+                                <div class="info-group_left">Время цикла</div>
+                                <div class="info-group_right">
+                                    <span>3ч</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="game-btn">Начать играть</button>
+                    </li>
+                    <li class="game-item swiper-slide">
+                        <div class="is-soon">
+                            <div class="is-soon_title">soon</div>
+                            <div class="is-soon_time">
+                                <img src="assets/img/icons/time.svg" alt="time">
+                                <span>20 дней</span>
+                            </div>
+                        </div>
+                        <div class="game-img">
+                            <img src="assets/img/presets/transation_2.png" alt="transation_2">
+                        </div>
+                        <div class="game-info">
+                            <div class="game-info_group">
+                                <div class="info-group_left">Доходность</div>
+                                <div class="info-group_right">
+                                    <span>1.1%</span>
+                                </div>
+                            </div>
+                            <div class="game-info_group">
+                                <div class="info-group_left">Стоимость</div>
+                                <div class="info-group_right">
+                                    <span>0.6 TON</span>
+                                    <img src="assets/img/icons/ton.svg" alt="ton">
+                                </div>
+                            </div>
+                            <div class="game-info_group">
+                                <div class="info-group_left">Время цикла</div>
+                                <div class="info-group_right">
+                                    <span>3ч</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="game-btn">Начать играть</button>
+                    </li>
+                    <li class="game-item swiper-slide">
+                        <div class="is-soon">
+                            <div class="is-soon_title">soon</div>
+                            <div class="is-soon_time">
+                                <img src="assets/img/icons/time.svg" alt="time">
+                                <span>20 дней</span>
+                            </div>
+                        </div>
+                        <div class="game-img">
+                            <img src="assets/img/presets/transation_3.png" alt="transation_3">
+                        </div>
+                        <div class="game-info">
+                            <div class="game-info_group">
+                                <div class="info-group_left">Доходность</div>
+                                <div class="info-group_right">
+                                    <span>1.1%</span>
+                                </div>
+                            </div>
+                            <div class="game-info_group">
+                                <div class="info-group_left">Стоимость</div>
+                                <div class="info-group_right">
+                                    <span>0.6 TON</span>
+                                    <img src="assets/img/icons/ton.svg" alt="ton">
+                                </div>
+                            </div>
+                            <div class="game-info_group">
+                                <div class="info-group_left">Время цикла</div>
+                                <div class="info-group_right">
+                                    <span>3ч</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="game-btn">Начать играть</button>
+                    </li>
+                    <li class="game-item swiper-slide">
+                        <div class="is-soon">
+                            <div class="is-soon_title">soon</div>
+                            <div class="is-soon_time">
+                                <img src="assets/img/icons/time.svg" alt="time">
+                                <span>20 дней</span>
+                            </div>
+                        </div>
+                        <div class="game-img">
+                            <img src="assets/img/presets/transation_3.png" alt="transation_3">
+                        </div>
+                        <div class="game-info">
+                            <div class="game-info_group">
+                                <div class="info-group_left">Доходность</div>
+                                <div class="info-group_right">
+                                    <span>1.1%</span>
+                                </div>
+                            </div>
+                            <div class="game-info_group">
+                                <div class="info-group_left">Стоимость</div>
+                                <div class="info-group_right">
+                                    <span>0.6 TON</span>
+                                    <img src="assets/img/icons/ton.svg" alt="ton">
+                                </div>
+                            </div>
+                            <div class="game-info_group">
+                                <div class="info-group_left">Время цикла</div>
+                                <div class="info-group_right">
+                                    <span>3ч</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="game-btn">Начать играть</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    function initialSwiper(event) {
+        const swiper = new Swiper(event, {
+            direction: 'horizontal',
+            spaceBetween: 10,
+            slidesPerView: 3,
+            loop: true,
+            breakpoints: {
+                300: {
+                    slidesPerView: 1.5,
+                },
+                500: {
+                    slidesPerView: 2.5,
+                },
+                600: {
+                    slidesPerView: 3,
+                },
+            }
+        })
+    }
+    function setOpen(className) {
+        const element = document.querySelector(className);
+        if (element.classList.contains('active')) element.classList.remove("active")
+        else element.classList.add('active')
+    }
+    initialSwiper('.slider')
+</script>
+
+</html>

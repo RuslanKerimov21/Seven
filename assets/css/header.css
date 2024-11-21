@@ -1,0 +1,146 @@
+.header {
+    position: relative;
+    z-index: 2;
+    padding: 12px 0;
+    background: #273903;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-list {
+    gap: 0 30px;
+    display: flex;
+}
+
+.header-list_item a {
+    display: flex;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    justify-content: space-between;
+}
+
+
+.header-list_item a img {
+    display: none;
+}
+
+.header-right {
+    gap: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header-locale {
+    gap: 11px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    transition: all .2s ease;
+}
+
+.header-locale.active .locale-control {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.locale-btn {
+    gap: 0 5px;
+    background: none;
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.locale-btn span {
+    text-transform: uppercase;
+}
+
+.locale-btn img:last-child {
+    transform: rotate(180deg);
+}
+
+.header-locale.active .locale-btn img:last-child {
+    transform: rotate(0deg);
+}
+
+.locale-control {
+    width: 112px;
+    position: absolute;
+    top: 137%;
+    z-index: 1;
+    padding: 10px;
+    pointer-events: none;
+    opacity: 0;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.locale-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.locale-list_item a {
+    gap: 5px;
+    padding: 10px 0;
+    display: flex;
+    color: #000;
+    align-items: center;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.locale-list_item:last-child a {
+    border-bottom: none;
+}
+
+.locale-list_item a span {
+    text-transform: uppercase;
+}
+
+@media(max-width: 850px) {
+    .header {
+        position: relative;
+    }
+
+    .header-inner {
+        height: 52px;
+    }
+
+    .header-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-list_item {
+        padding: 26px 0;
+        border-bottom: 1px solid #D9D9D9;
+    }
+
+    .header-list_item:last-child {
+        border-bottom: none;
+    }
+
+    .header-list_item a {
+        color: #000;
+        text-transform: uppercase;
+    }
+
+    .header-list_item a img {
+        display: block;
+    }
+
+    .header-menu_desktop {
+        display: none;
+    }
+
+    .locale-btn span {
+        display: none;
+    }
+}
